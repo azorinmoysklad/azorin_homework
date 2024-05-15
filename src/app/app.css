@@ -9,11 +9,11 @@ div#root {
     margin: 10px 200px 0px 200px;
 }
 
-main {
+.main {
     flex: 1 0 auto;
 }
 
-footer {
+.footer {
     flex-shrink: 0;
 }
 
@@ -24,12 +24,12 @@ footer {
 }
 
 
-.header-app {
+.header {
     display: flex;
     justify-content: space-between;
 }
 
-.footer-app {
+.footer-container {
     display: flex;
     justify-content: center;
 }
